@@ -9,12 +9,16 @@
   "emple_activo",
   "section_break_qyeh",
   "naming_series",
+  "emp_cedula",
   "emple_nombres",
-  "emple_direccion",
   "emple_telefono",
   "emple_correo",
+  "emple_direccion",
+  "foto_tab",
   "section_break_lqbb",
-  "emple_foto"
+  "emple_foto",
+  "tab_3_tab",
+  "emple_password"
  ],
  "fields": [
   {
@@ -41,7 +45,7 @@
   },
   {
    "fieldname": "emple_direccion",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Direcci\u00f3n"
   },
   {
@@ -62,12 +66,32 @@
    "fieldname": "emple_foto",
    "fieldtype": "Attach Image",
    "label": "Foto"
+  },
+  {
+   "fieldname": "emp_cedula",
+   "fieldtype": "Data",
+   "label": "C\u00e9dula"
+  },
+  {
+   "fieldname": "foto_tab",
+   "fieldtype": "Tab Break",
+   "label": "Foto"
+  },
+  {
+   "fieldname": "tab_3_tab",
+   "fieldtype": "Tab Break",
+   "label": "Password"
+  },
+  {
+   "fieldname": "emple_password",
+   "fieldtype": "Data",
+   "label": "Password"
   }
  ],
  "image_field": "emple_foto",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-13 15:46:15.411209",
+ "modified": "2024-03-14 17:32:35.600500",
  "modified_by": "Administrator",
  "module": "mod_datos",
  "name": "dat_empleado",
